@@ -4,7 +4,6 @@
   <meta charset="UTF-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="css/normalize.css"/>
   <link rel="stylesheet" href="css/style.css"/>
   <title>Lagoona - сеть отелей</title>
 </head>
@@ -13,7 +12,7 @@
   <div class="container header-container">
     <div class="header-top">
       <a href="#" class="header-top-logo"
-      ><img src="img/logo.svg" alt="Лагуна - сеть отелей"
+      ><img src="../img/logo.svg" alt="Лагуна - сеть отелей"
       /></a>
       <a href="tel:+74953225448" class="header-top-number"
       >+7 495 322 54 48</a
@@ -115,7 +114,7 @@
       <h2 class="section-heading">Услуги</h2>
       <ul class="section-service-list">
         <li class="section-service-item">
-          <img src="img/list-1.jpg" class="present" alt="#"/>
+          <img src="../img/list-1.jpg" class="present" alt="#"/>
           <a href="#" class="section-service-link"
           ><span class="section-service-link-text"
           >Эксклюзивное обслуживание</span
@@ -128,7 +127,7 @@
           </p>
         </li>
         <li class="section-service-item">
-          <img src="img/list-2.jpg" class="present" alt="#"/>
+          <img src="../img/list-2.jpg" class="present" alt="#"/>
           <a href="#" class="section-service-link"
           ><span class="section-service-link-text"
           >Аренда банкетных залов</span
@@ -141,7 +140,7 @@
           </p>
         </li>
         <li class="section-service-item">
-          <img src="img/list-3.jpg" class="present" alt="#"/>
+          <img src="../img/list-3.jpg" class="present" alt="#"/>
           <a href="#" class="section-service-link"
           ><span class="section-service-link-text"
           >Сауны, бассейны, бани, фитнес-залы</span
@@ -154,7 +153,7 @@
           </p>
         </li>
         <li class="section-service-item">
-          <img src="img/list-4.jpg" class="present" alt="#"/>
+          <img src="../img/list-4.jpg" class="present" alt="#"/>
           <a href="#" class="section-service-link"
           ><span class="section-service-link-text"
           >Охраняемые автомобильные стоянки</span
@@ -177,56 +176,56 @@
       </h2>
       <ul class="section-advantage-list">
         <li class="section-advantage-item">
-          <img src="img/bathtub.svg" alt="bathtub"/>
+          <img src="../img/bathtub.svg" alt="bathtub"/>
           <p class="section-advantage-desc">
             Идейные соображения высшего порядка, а также постоянный
             количественный рост
           </p>
         </li>
         <li class="section-advantage-item">
-          <img src="img/hanger.svg" alt="hanger"/>
+          <img src="../img/hanger.svg" alt="hanger"/>
           <p class="section-advantage-desc">
             Значимость этих проблем настолько очевидна, что вопрос остается
             открытым
           </p>
         </li>
         <li class="section-advantage-item">
-          <img src="img/heating.svg" alt="heating"/>
+          <img src="../img/heating.svg" alt="heating"/>
           <p class="section-advantage-desc">
             Таким образом реализация плановых заданий играет важную роль для
             понимания
           </p>
         </li>
         <li class="section-advantage-item">
-          <img src="img/hotel-key.svg" alt="hotel-key"/>
+          <img src="../img/hotel-key.svg" alt="hotel-key"/>
           <p class="section-advantage-desc">
             Повседневная практика показывает, что сложившаяся структура
             организации
           </p>
         </li>
         <li class="section-advantage-item">
-          <img src="img/parking.svg" alt="parking"/>
+          <img src="../img/parking.svg" alt="parking"/>
           <p class="section-advantage-desc">
             Равным образом рамки и место обучения кадров способствует
             подготовки сотрудника
           </p>
         </li>
         <li class="section-advantage-item">
-          <img src="img/reception.svg" alt="reception"/>
+          <img src="../img/reception.svg" alt="reception"/>
           <p class="section-advantage-desc">
             Консультация с активом влечет за собой процесс внедрения услуг
             нашего сервиса
           </p>
         </li>
         <li class="section-advantage-item">
-          <img src="img/security-box.svg" alt="security-box"/>
+          <img src="../img/security-box.svg" alt="security-box"/>
           <p class="section-advantage-desc">
             Повседневная практика показывает, что дальнейшее развитие
             различных форм
           </p>
         </li>
         <li class="section-advantage-item">
-          <img src="img/swimming-pool.svg" alt="swimming-pool"/>
+          <img src="../img/swimming-pool.svg" alt="swimming-pool"/>
           <p class="section-advantage-desc">
             Значимость этого настолько очевидна, что консультация наших
             экспертов помогает
@@ -241,7 +240,7 @@
       <h2 class="section-heading section-placement__heading">Размещение</h2>
       <ul class="section-placement-list">
         <li class="section-placement-item">
-          <img src="img/p-1.jpg" class="placement-present" alt="Отель"/>
+          <img src="../img/p-1.jpg" class="placement-present" alt="Отель"/>
           <div class="section-placement-inside">
             <div class="section-placement-price">
               <div class="opacity">от</div>
@@ -250,11 +249,11 @@
               >
               / ночь
               <div class="section-placement-star">
-                <img src="img/star.svg" alt="Рейтинг 4 из 5"/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star-empty.svg" alt=""/>
+                <img src="../img/star.svg" alt="Рейтинг 4 из 5"/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star-empty.svg" alt=""/>
               </div>
             </div>
             <div class="section-placement-item-name">Lagoona española</div>
@@ -265,7 +264,7 @@
           </div>
         </li>
         <li class="section-placement-item">
-          <img src="img/p-2.jpg" class="placement-present" alt="Отель"/>
+          <img src="../img/p-2.jpg" class="placement-present" alt="Отель"/>
           <div class="section-placement-inside">
             <div class="section-placement-price">
               <div class="opacity">от</div>
@@ -274,11 +273,11 @@
               >
               / ночь
               <div class="section-placement-star">
-                <img src="img/star.svg" alt="Рейтинг 4 из 5"/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star-empty.svg" alt=""/>
+                <img src="../img/star.svg" alt="Рейтинг 4 из 5"/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star-empty.svg" alt=""/>
               </div>
             </div>
             <div class="section-placement-item-name">
@@ -291,7 +290,7 @@
           </div>
         </li>
         <li class="section-placement-item">
-          <img src="img/p-3.jpg" class="placement-present" alt="Отель"/>
+          <img src="../img/p-3.jpg" class="placement-present" alt="Отель"/>
           <div class="section-placement-inside">
             <div class="section-placement-price">
               <div class="opacity">от</div>
@@ -300,11 +299,11 @@
               >
               / ночь
               <div class="section-placement-star">
-                <img src="img/star.svg" alt="Рейтинг 5 из 5"/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt="Рейтинг 5 из 5"/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
               </div>
             </div>
             <div class="section-placement-item-name">
@@ -317,7 +316,7 @@
           </div>
         </li>
         <li class="section-placement-item">
-          <img src="img/p-4.jpg" class="placement-present" alt="Отель"/>
+          <img src="../img/p-4.jpg" class="placement-present" alt="Отель"/>
           <div class="section-placement-inside">
             <div class="section-placement-price">
               <div class="opacity">от</div>
@@ -326,11 +325,11 @@
               >
               / ночь
               <div class="section-placement-star">
-                <img src="img/star.svg" alt="Рейтинг 5 из 5"/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt="Рейтинг 5 из 5"/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
               </div>
             </div>
             <div class="section-placement-item-name">
@@ -343,7 +342,7 @@
           </div>
         </li>
         <li class="section-placement-item">
-          <img src="img/p-5.jpg" class="placement-present" alt="Отель"/>
+          <img src="../img/p-5.jpg" class="placement-present" alt="Отель"/>
           <div class="section-placement-inside">
             <div class="section-placement-price">
               <div class="opacity">от</div>
@@ -352,11 +351,11 @@
               >
               / ночь
               <div class="section-placement-star">
-                <img src="img/star.svg" alt="Рейтинг 4 из 5"/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star-empty.svg" alt=""/>
+                <img src="../img/star.svg" alt="Рейтинг 4 из 5"/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star-empty.svg" alt=""/>
               </div>
             </div>
             <div class="section-placement-item-name">Lagoona española</div>
@@ -367,7 +366,7 @@
           </div>
         </li>
         <li class="section-placement-item">
-          <img src="img/p-6.jpg" class="placement-present" alt="Отель"/>
+          <img src="../img/p-6.jpg" class="placement-present" alt="Отель"/>
           <div class="section-placement-inside">
             <div class="section-placement-price">
               <div class="opacity">от</div>
@@ -376,11 +375,11 @@
               >
               / ночь
               <div class="section-placement-star">
-                <img src="img/star.svg" alt="Рейтинг 4 из 5"/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star-empty.svg" alt=""/>
+                <img src="../img/star.svg" alt="Рейтинг 4 из 5"/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star-empty.svg" alt=""/>
               </div>
             </div>
             <div class="section-placement-item-name">
@@ -393,7 +392,7 @@
           </div>
         </li>
         <li class="section-placement-item">
-          <img src="img/p-7.jpg" class="placement-present" alt="Отель"/>
+          <img src="../img/p-7.jpg" class="placement-present" alt="Отель"/>
           <div class="section-placement-inside">
             <div class="section-placement-price">
               <div class="opacity">от</div>
@@ -402,11 +401,11 @@
               >
               / ночь
               <div class="section-placement-star">
-                <img src="img/star.svg" alt="Рейтинг 4 из 5"/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star-empty.svg" alt=""/>
+                <img src="../img/star.svg" alt="Рейтинг 4 из 5"/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star-empty.svg" alt=""/>
               </div>
             </div>
             <div class="section-placement-item-name">
@@ -419,7 +418,7 @@
           </div>
         </li>
         <li class="section-placement-item">
-          <img src="img/p-8.jpg" class="placement-present" alt="Отель"/>
+          <img src="../img/p-8.jpg" class="placement-present" alt="Отель"/>
           <div class="section-placement-inside">
             <div class="section-placement-price">
               <div class="opacity">от</div>
@@ -428,11 +427,11 @@
               >
               / ночь
               <div class="section-placement-star">
-                <img src="img/star.svg" alt="Рейтинг 4 из 5"/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star.svg" alt=""/>
-                <img src="img/star-empty.svg" alt=""/>
+                <img src="../img/star.svg" alt="Рейтинг 4 из 5"/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star.svg" alt=""/>
+                <img src="../img/star-empty.svg" alt=""/>
               </div>
             </div>
             <div class="section-placement-item-name">
