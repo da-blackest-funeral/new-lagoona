@@ -12,7 +12,7 @@
 <br>
 <form action="/login" method="post">
     @csrf
-    <input type="email" placeholder="enter email" value="{{ $email }}" name="email" id="email" required><br>
+    <input type="email" placeholder="enter email" name="email" id="email" required><br>
     <input type="password" placeholder="enter password" name="password" id="password" required><br>
     <button type="submit"> Отправить </button>
 </form>

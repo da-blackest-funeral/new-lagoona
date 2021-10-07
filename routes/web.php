@@ -1,10 +1,12 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [MainController::class, 'index']);
+Route::get('/', [UserController::class, 'index']);
 
 /**
  * Route::match() позволяет
@@ -14,13 +16,13 @@ Route::get('/', [MainController::class, 'index']);
 Route::match(
     ['get', 'post'],
     '/register',
-    [UserController::class, 'register']
+    [RegisterController::class, 'register']
 )->name('register');
 
 Route::match(
     ['get', 'post'],
     '/login',
-    [UserController::class, 'login']
+    [LoginController::class, 'login']
 )->name('login');
 
 /**
@@ -30,9 +32,9 @@ Route::match(
  * аутентифицированные пользователи
  */
 Route::get(
-    '/user/profile',
+    '/profile',
     [UserController::class, 'profile']
 )->middleware('auth')
     ->name('profile');
 
-//Route::get('/logout', [UserController::class, 'logout'])->name('logout');
+Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
