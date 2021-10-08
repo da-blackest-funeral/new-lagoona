@@ -16,5 +16,12 @@
     <input type="password" placeholder="enter password" name="password" id="password" required><br>
     <button type="submit"> Отправить </button>
 </form>
+@if ($errors->any())
+    <ul class="errors">
+        @foreach($errors->all() as $error)
+            <li>{{  $error  }}</li>
+        @endforeach
+    </ul>
+@endif
 </body>
 </html>

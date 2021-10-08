@@ -31,10 +31,7 @@ Route::match(
  * могут попасть только
  * аутентифицированные пользователи
  */
-Route::get(
-    '/profile',
-    [UserController::class, 'profile']
-)->middleware('auth')
+Route::get('/{id}/profile', [UserController::class, 'profile'])->middleware('auth')
     ->name('profile');
 
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');

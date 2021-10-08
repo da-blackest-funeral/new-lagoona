@@ -8,7 +8,7 @@
     <title>Profile</title>
 </head>
 <body>
-<!-- получения email пользователя с помощью глобального хелпера -->
-<h1> Profile of {{  auth()->user()->email  }}</h1>
+<!-- получения email(id) пользователя с помощью глобального хелпера -->
+<h1> Profile of {{  auth()->user()->id  }}</h1>
 </body>
 </html>

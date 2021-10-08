@@ -11,13 +11,17 @@ class UserController extends Controller
         return view('index');
     }
 
-    public function profile()
+    public function profile($id)
     {
-        // если пользователь не авторизован вернуть на страницу входа
+        // если пользователь не авторизован возрващаем его на страницу входа
         if (!Auth::check()) {
             return redirect('/login');
         }
+        // Если пользователь попытается перейти на приватную часть (возможно чужой) страницы
+        if (Auth::user()->id == $id) {
+            return view('profile', ['id' => Auth::user()->id]);
+        }
 
-        return view('/profile');
+        return "You don't have permissions to do this.";
     }
 }

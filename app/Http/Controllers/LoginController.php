@@ -14,6 +14,7 @@ class LoginController extends Controller
         }
 
         if ($request->method() == 'POST') {
+
             $formFields = $request->only(['email', 'password']);
             if (Auth::attempt($formFields)) {
                 return redirect('/profile');
@@ -23,7 +24,7 @@ class LoginController extends Controller
         }
 
         return redirect('/login')->withErrors([
-           'email' => 'Не удалось авторизоваться'
+           'login' => 'Не удалось авторизоваться'
         ]);
     }
 

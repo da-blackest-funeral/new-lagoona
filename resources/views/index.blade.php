@@ -17,10 +17,18 @@
       <a href="tel:+74953225448" class="header-top-number"
       >+7 495 322 54 48</a
       >
-      <a href="#" class="header-top-account">
-        <span class="header-top-icon"> </span>
-        <span class="header-account-text"> Личный кабинет </span>
-      </a>
+        @if (auth()->check())
+          <a href="/profile" class="header-top-account">
+            <span class="header-account-text"> Личный кабинет </span>
+          </a>
+        @else
+            <a href="/login" class="header-top-account">
+                <span class="header-account-text"> Войти </span>
+            </a>
+            <a href="/register" class="header-top-account">
+                <span class="header-account-text"> Регистрация </span>
+            </a>
+        @endif
     </div>
     <div class="header-bottom">
       <nav class="header-nav">
