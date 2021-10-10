@@ -10,14 +10,14 @@ class LoginController extends Controller
     public function login(Request $request) {
 
         if (Auth::check()) {
-            return redirect('/profile');
+            return redirect('/' . Auth::user()->id . '/profile');
         }
 
         if ($request->method() == 'POST') {
 
             $formFields = $request->only(['email', 'password']);
             if (Auth::attempt($formFields)) {
-                return redirect('/profile');
+                return redirect('/' . Auth::user()->id . '/profile');
             }
         } else {
             return view('/login');
